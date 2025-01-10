@@ -163,7 +163,6 @@ export async function processCompletedInterview(chatId) {
 
 async function performPreStorageAnalysis(interview, chatId) {
 
-  console.log(interview.transcript)
 
   const content = PRESTORAGE_V1.concat(JSON.stringify(interview.transcript))
 
@@ -195,7 +194,6 @@ async function performPreStorageAnalysis(interview, chatId) {
   );
 
   const analyzedInterview = await db.collection('live').findOne({ _id: chatId });
-  console.log(analyzedInterview)
 
 
   return analyzedInterview

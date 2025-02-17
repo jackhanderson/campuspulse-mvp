@@ -48,6 +48,3 @@ The main goal of this project is to:
 If you'd like to contribute to **CampusPulse**, here’s how you can get involved:
 - **Bug Reports**: Report any issues or bugs through GitHub Issues.
 - **Feature Suggestions**: Share ideas for new features or improvements by opening an issue or submitting a pull request.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
